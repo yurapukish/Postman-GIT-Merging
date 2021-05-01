@@ -199,6 +199,91 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "object_info_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_test}}/object_info_3?age=36&salary=1500&name=yura",
+					"host": [
+						"{{url_test}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "36"
+						},
+						{
+							"key": "salary",
+							"value": "1500"
+						},
+						{
+							"key": "name",
+							"value": "yura"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_2_post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "age",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2200",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "olga",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url_test}}/user_info_2",
+					"host": [
+						"{{url_test}}"
+					],
+					"path": [
+						"user_info_2"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "36",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "1500",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "yura",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
